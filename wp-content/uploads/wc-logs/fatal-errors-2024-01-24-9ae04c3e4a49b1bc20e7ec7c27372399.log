@@ -1,0 +1,1468 @@
+2024-01-24T04:42:12+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T05:25:29+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T05:40:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T05:42:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T05:44:40+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:08:27+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:09:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:13:23+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:14:35+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:14:35+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:16:10+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:17:10+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:18:11+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:20:11+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:22:12+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:23:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:24:36+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:25:37+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:26:46+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:28:04+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:31:54+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:33:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:34:22+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:36:05+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:37:20+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:38:39+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:40:45+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:41:57+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:44:55+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:46:39+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:47:43+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:51:12+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:52:14+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:53:24+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:56:30+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T06:57:53+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:02:36+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:12:59+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:14:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:16:06+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:25:08+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:28:13+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:29:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:35:46+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:40:00+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:42:20+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:44:01+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:46:40+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:48:00+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:49:13+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:50:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:55:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function extractPrices(), 0 passed in /var/www/html/handelstore/wp-content/themes/mpsa/woocommerce/content-single-product.php on line 62 and at least 1 expected in /var/www/html/handelstore/wp-content/themes/mpsa/functions.php:480
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/themes/mpsa/woocommerce/content-single-product.php(62): extractPrices()
+#1 /var/www/html/handelstore/wp-includes/template.php(792): require('...')
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#3 /var/www/html/handelstore/wp-content/themes/mpsa/single-product.php(68): wc_get_template_part()
+#4 /var/www/html/handelstore/wp-includes/template-loader.php(106): include('...')
+#5 /var/www/html/handelstore/wp-blog-header.php(19): require_once('...')
+#6 /var/www/html/handelstore/index.php(17): require('...')
+#7 {main}
+  thrown i /var/www/html/handelstore/wp-content/themes/mpsa/functions.php på rad 480
+
+2024-01-24T07:55:00+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:56:30+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T07:58:10+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T08:00:59+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T08:38:34+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T08:40:32+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:12:53+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:14:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:16:37+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:17:38+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:20:38+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:22:38+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:24:38+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:26:38+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:40:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:41:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:43:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:45:56+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:47:57+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:49:57+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:53:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:54:18+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:56:18+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T09:58:18+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:00:18+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:02:16+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:04:07+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:25:08+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:26:09+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:28:10+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:30:10+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:32:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:34:11+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:35:12+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:36:12+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:38:13+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:40:13+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:42:14+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:44:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:47:51+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T10:48:51+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:19:14+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:20:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:22:15+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:24:16+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:26:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:28:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:33:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:34:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:37:42+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:39:43+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:41:44+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:43:44+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:46:40+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:47:40+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:49:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:51:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:53:41+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T11:55:42+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T12:01:17+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+
+2024-01-24T12:04:18+00:00 CRITICAL Uncaught RuntimeException: Det gick inte att göra anspråk på åtgärder. Databasfel: Table 'handelstore.wp_actionscheduler_actions' doesn't exist. in /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:942
+Stack trace:
+#0 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(221): ActionScheduler_DBStore->stake_claim()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(160): ActionScheduler_HybridStore->stake_claim()
+#3 /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch()
+#4 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): ActionScheduler_QueueRunner->run()
+#5 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /var/www/html/handelstore/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /var/www/html/handelstore/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown i /var/www/html/handelstore/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php på rad 942
+

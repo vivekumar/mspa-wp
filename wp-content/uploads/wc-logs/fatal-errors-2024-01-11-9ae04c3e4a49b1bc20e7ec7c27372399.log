@@ -1,0 +1,10 @@
+2024-01-11T05:19:03+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in /var/www/html/handelstore/wp-includes/formatting.php:4494
+Stack trace:
+#0 /var/www/html/handelstore/wp-includes/formatting.php(4494): ltrim()
+#1 /var/www/html/handelstore/wp-content/themes/mpsa/page-produkter.php(71): esc_url()
+#2 /var/www/html/handelstore/wp-includes/template-loader.php(106): include('...')
+#3 /var/www/html/handelstore/wp-blog-header.php(19): require_once('...')
+#4 /var/www/html/handelstore/index.php(17): require('...')
+#5 {main}
+  thrown i /var/www/html/handelstore/wp-includes/formatting.php på rad 4494
+

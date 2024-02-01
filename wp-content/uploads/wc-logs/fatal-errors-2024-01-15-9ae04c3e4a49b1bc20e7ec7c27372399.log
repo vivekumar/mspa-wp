@@ -1,0 +1,42 @@
+2024-01-15T06:21:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /var/www/html/handelstore/wp-content/themes/mpsa/content-single-product.php:4
+Stack trace:
+#0 /var/www/html/handelstore/wp-includes/template.php(792): require()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#2 /var/www/html/handelstore/wp-content/themes/mpsa/single-product.php(68): wc_get_template_part()
+#3 /var/www/html/handelstore/wp-includes/template-loader.php(106): include('...')
+#4 /var/www/html/handelstore/wp-blog-header.php(19): require_once('...')
+#5 /var/www/html/handelstore/index.php(17): require('...')
+#6 {main}
+  thrown i /var/www/html/handelstore/wp-content/themes/mpsa/content-single-product.php på rad 4
+
+2024-01-15T08:37:53+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/handelstore/wp-content/themes/mpsa/content-single-product.php:729
+Stack trace:
+#0 /var/www/html/handelstore/wp-includes/template.php(792): require()
+#1 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#2 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part()
+#3 /var/www/html/handelstore/wp-includes/shortcodes.php(433): WC_Shortcodes::product_page()
+#4 [internal function]: do_shortcode_tag()
+#5 /var/www/html/handelstore/wp-includes/shortcodes.php(273): preg_replace_callback()
+#6 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(634): do_shortcode()
+#7 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_product_content_filter()
+#8 /var/www/html/handelstore/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#9 /var/www/html/handelstore/wp-includes/post-template.php(256): apply_filters()
+#10 /var/www/html/handelstore/wp-content/themes/mpsa/single-product/tabs/description.php(30): the_content()
+#11 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('...')
+#12 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1869): wc_get_template()
+#13 /var/www/html/handelstore/wp-content/themes/mpsa/single-product/tabs/tabs.php(47): woocommerce_product_description_tab()
+#14 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('...')
+#15 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1631): wc_get_template()
+#16 /var/www/html/handelstore/wp-includes/class-wp-hook.php(324): woocommerce_output_product_data_tabs()
+#17 /var/www/html/handelstore/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#18 /var/www/html/handelstore/wp-includes/plugin.php(517): WP_Hook->do_action()
+#19 /var/www/html/handelstore/wp-content/themes/mpsa/content-single-product.php(222): do_action()
+#20 /var/www/html/handelstore/wp-includes/template.php(792): require('...')
+#21 /var/www/html/handelstore/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#22 /var/www/html/handelstore/wp-content/themes/mpsa/single-product.php(68): wc_get_template_part()
+#23 /var/www/html/handelstore/wp-includes/template-loader.php(106): include('...')
+#24 /var/www/html/handelstore/wp-blog-header.php(19): require_once('...')
+#25 /var/www/html/handelstore/index.php(17): require('...')
+#26 {main}
+  thrown i /var/www/html/handelstore/wp-content/themes/mpsa/content-single-product.php på rad 729
+

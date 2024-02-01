@@ -1,0 +1,1424 @@
+# Translation of Plugins - YITH WooCommerce Compare - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Compare - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-19 22:53:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Compare - Stable (latest release)\n"
+
+#: plugin-fw/templates/panel/v2/premium-tab.php:24
+msgctxt "Premium Tab"
+msgid "Check out the advanced features you can get by upgrading to premium!"
+msgstr "Kolla in de avancerade funktionerna du kan få genom att uppgradera till premium!"
+
+#: plugin-fw/templates/panel/v2/premium-tab.php:22
+msgctxt "Premium Tab"
+msgid "Upgrade to unlock premium features"
+msgstr "Uppgradera för att låsa upp premiumfunktioner"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:124
+msgctxt "Premium Tab"
+msgid "Verified Customer"
+msgstr "Verifierad kund"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:97
+msgctxt "Premium Tab"
+msgid "Technical support"
+msgstr "Teknisk support"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:96
+msgctxt "Premium Tab"
+msgid "Regular updates"
+msgstr "Regelbundna uppdateringar"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:95
+msgctxt "Premium Tab"
+msgid "Advanced features"
+msgstr "Avancerade funktioner"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:83
+msgctxt "Premium Tab"
+msgid "Upgrade now to unlock premium features"
+msgstr "Uppgradera nu för att låsa upp premiumfunktioner"
+
+#. translators: %s is the discount percentage.
+#: plugin-fw/templates/panel/premium-tab-content.php:79
+msgctxt "Premium Tab"
+msgid "Upgrade now to get a %s%% off"
+msgstr "Uppgradera nu och få %s&nbsp;%% rabatt"
+
+#: plugin-fw/includes/class-yit-plugin-panel-woocommerce.php:502
+#: plugin-fw/includes/class-yit-plugin-panel.php:1561
+msgid "Options saved!"
+msgstr "Alternativ sparade!"
+
+#: plugin-fw/templates/panel/v2/your-store-tools-tab.php:35
+msgctxt "Plugin in \"Your Store Tools\" tab"
+msgid "Best choice"
+msgstr "Bästa val"
+
+#: plugin-fw/templates/panel/v2/your-store-tools-tab.php:51
+msgctxt "Plugin in \"Your Store Tools\" tab"
+msgid "Get it"
+msgstr "Skaffa det"
+
+#: plugin-fw/templates/panel/v2/your-store-tools-tab.php:46
+msgctxt "Plugin in \"Your Store Tools\" tab"
+msgid "Active"
+msgstr "Aktivt"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:45
+#: plugin-fw/templates/panel/v2/panel-option-label-tags.php:16
+msgctxt "Panel option tag"
+msgid "PREMIUM"
+msgstr "PREMIUM"
+
+#: plugin-fw/templates/panel/v2/panel-nav.php:36
+msgid "Collapse"
+msgstr "Minimera"
+
+#. translators: %s is the alternative action "Upload a file".
+#: plugin-fw/templates/fields/media.php:72
+msgid "Upload a file"
+msgstr "Ladda upp en fil"
+
+#. translators: %s is the alternative action "Upload a file".
+#: plugin-fw/templates/fields/media.php:71
+msgid "Drag or %s"
+msgstr "Dra eller %s"
+
+#: plugin-fw/templates/fields/media.php:53
+msgid "Enter URL"
+msgstr "Ange URL"
+
+#: plugin-fw/templates/fields/media.php:47
+msgid "Upload file"
+msgstr "Ladda upp fil"
+
+#: plugin-fw/templates/fields/file.php:14
+msgid "Drag or upload a file."
+msgstr "Dra eller ladda upp en fil."
+
+#: plugin-fw/templates/fields/ajax-orders.php:16
+msgid "Search for an order..."
+msgstr "Sök efter en beställning …"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:992
+msgctxt "Panel tab name"
+msgid "Your Store Tools"
+msgstr "Dina butiksverktyg"
+
+#: plugin-fw/includes/class-yit-plugin-panel-woocommerce.php:556
+msgid "Options reset correctly!"
+msgstr "Alternativ återställdes korrekt!"
+
+#: plugin-fw/includes/class-yit-assets.php:214
+msgid "You cannot drop files here."
+msgstr "Du kan inte släppa filer här."
+
+#: plugin-fw/includes/class-yit-assets.php:213
+msgid "No file provided."
+msgstr "Ingen fil angiven."
+
+#: plugin-fw/includes/class-yit-assets.php:212
+msgctxt "Title"
+msgid "Error"
+msgstr "Fel"
+
+#. translators: %s is the number of characters.
+#: plugin-fw/includes/class-yit-assets.php:200
+msgctxt "Enhanced select"
+msgid "Searching&hellip;"
+msgstr "Söker …"
+
+#. translators: %s is the number of characters.
+#: plugin-fw/includes/class-yit-assets.php:199
+msgctxt "Enhanced select"
+msgid "Please enter %s or more characters"
+msgstr "Ange %s eller fler tecken"
+
+#: plugin-fw/includes/class-yit-assets.php:197
+msgctxt "Enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Ange 1 eller fler tecken"
+
+#: plugin-fw/includes/class-yit-assets.php:196
+msgctxt "Enhanced select"
+msgid "No matches found"
+msgstr "Inga matchningar hittades"
+
+#. translators: %s is the number of steps.
+#: plugin-fw/templates/panel/welcome-modals/welcome.php:45
+msgid "Start with these %s steps:"
+msgstr "Starta med dessa %s steg:"
+
+#: plugin-fw/templates/panel/welcome-modals/welcome.php:30
+msgid "Thank you for using our plugin"
+msgstr "Tack för att du använder vårt tillägg."
+
+#: plugin-fw/templates/panel/welcome-modals/update.php:64
+#: plugin-fw/templates/panel/welcome-modals/welcome.php:60
+msgid "Got it, close this window"
+msgstr "Jag förstår, stäng detta fönster"
+
+#: plugin-fw/templates/panel/welcome-modals/update.php:49
+msgid "Check the changelog >"
+msgstr "Kolla in ändringsloggen >"
+
+#. translators: %s is the plugin version.
+#: plugin-fw/templates/panel/welcome-modals/update.php:44
+msgid "What's new in version %s"
+msgstr "Vad som är nytt i version %s"
+
+#. translators: %s is the plugin version.
+#: plugin-fw/templates/panel/welcome-modals/update.php:34
+msgid "is successfully updated to version %s."
+msgstr "har uppdaterats till version %s."
+
+#: plugin-fw/templates/bh-onboarding/onboarding-tabs.php:60
+msgid "Save"
+msgstr "Spara"
+
+#: plugin-fw/includes/class-yith-bh-onboarding.php:85
+msgid "It is not possible save the options"
+msgstr "Det är inte möjligt att spara alternativet"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1185
+msgid "See how it works before you start using it"
+msgstr "Se hur det fungerar innan du börjar använda det"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1174
+msgid "Learn what you can really do with this powerful tool"
+msgstr "Lär dig vad du verkligen kan göra med detta kraftfulla verktyg"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1173
+msgid "Read the <mark>plugin documentation</mark>"
+msgstr "Läs <mark>tilläggets dokumentation</mark>"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:66
+msgctxt "Premium Tab"
+msgid "Check the premium features >"
+msgstr "Kolla in premiumfunktionerna >"
+
+#: plugin-fw/templates/panel/help-tab.php:238
+msgctxt "Help tab support"
+msgid "Call or chat 24/7 with our support agents, or let our experts build your site."
+msgstr "Ring eller chatta dygnet runt med våra supportagenter, eller låt våra experter bygga din webbplats."
+
+#: plugin-fw/templates/panel/help-tab.php:220
+msgctxt "Help tab documentation"
+msgid "to learn how it works from the basics."
+msgstr "för att lära dig hur det fungerar från grunden."
+
+#: plugin-fw/templates/panel/help-tab.php:241
+msgctxt "Help tab support"
+msgid "Yes, I need help"
+msgstr "Ja, jag behöver hjälp"
+
+#: plugin-fw/templates/panel/help-tab.php:231
+#: plugin-fw/templates/panel/help-tab.php:233
+msgctxt "Help tab support"
+msgid "Need some help?"
+msgstr "Behöver du hjälp?"
+
+#: plugin-fw/templates/panel/help-tab.php:216
+#: plugin-fw/templates/panel/help-tab.php:218
+#: plugin-fw/templates/panel/help-tab.php:223
+msgctxt "Help tab documentation"
+msgid "Read the plugin documentation"
+msgstr "Läs tilläggets dokumentation"
+
+#. translators: 1. Plugin name.
+#: plugin-fw/includes/class-yit-plugin-panel.php:920
+msgctxt "Help tab default title"
+msgid "Thank you for using %s!"
+msgstr "Tack för att du använder %s!"
+
+#: plugin-fw/templates/fields/ajax-terms.php:41
+msgid "Search for a category..."
+msgstr "Sök efter en kategori …"
+
+#: plugin-fw/templates/fields/ajax-posts.php:41
+msgid "Search for a post..."
+msgstr "Sök efter ett inlägg …"
+
+#: plugin-fw/templates/fields/ajax-customers.php:41
+msgid "Search for a customer..."
+msgstr "Sök efter en kund …"
+
+#: plugin-fw/templates/panel/help-tab.php:142
+msgctxt "Help tab Watch video tutorials link"
+msgid "to see some helpful use cases."
+msgstr "för att se några användbara användningsfall."
+
+#: plugin-fw/templates/panel/help-tab.php:129
+msgctxt "Help tab Read Documentation link"
+msgid "to learn how the plugin works from the basics."
+msgstr "för att lära dig hur tillägget fungerar från grunden."
+
+#: plugin-fw/templates/panel/premium-tab-content.php:102
+msgctxt "Premium Tab"
+msgid "Get the premium version"
+msgstr "Skaffa premiumversionen"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:62
+msgctxt "Premium Tab"
+msgid "Check the free vs premium features >"
+msgstr "Jämför funktionerna mellan gratis och premium >"
+
+#: plugin-fw/templates/panel/premium-tab-content.php:59
+msgctxt "Premium Tab"
+msgid "...and so much more!"
+msgstr "… och mycket mer!"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:977
+msgctxt "Premium tab name"
+msgid "Get premium"
+msgstr "Skaffa premium"
+
+#. Translators: %1$f: Table size, %2$f: Index size, %3$f: Free size, %4$s
+#. Engine.
+#: plugin-fw/templates/sysinfo/tabs/main.php:174
+msgid "Data: %1$.2fMB | Index: %2$.2fMB | Free: %3$.2fMB | Engine: %4$s"
+msgstr "Data: %1$.2fMB | Index: %2$.2fMB | Tillgängligt: %3$.2fMB | Motor: %4$s"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:160
+msgid "Database Free Size"
+msgstr "Ledigt utrymme i databas"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:152
+msgid "Database Index Size"
+msgstr "Databasindexets storlek"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:144
+msgid "Database Data Size"
+msgstr "Storlek hos databasens data"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:136
+msgid "Total Database Size"
+msgstr "Total databasstorlek"
+
+#. Translators: %s: Codex link.
+#: plugin-fw/templates/sysinfo/tabs/main.php:129
+msgid "WordPress requirements"
+msgstr "WordPress-krav"
+
+#. Translators: %s: Codex link.
+#: plugin-fw/templates/sysinfo/tabs/main.php:129
+msgid "WordPress recommends a minimum MySQL version of 5.6. See: %s"
+msgstr "WordPress rekommenderar som lägst MySQL-version av 5.6. Se: %s"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:119
+msgid "MySQL version"
+msgstr "MySQL-version"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:114
+msgid "Database Info"
+msgstr "Databasinformation"
+
+#. translators: %s is the name of the plugin that is loading the framework.
+#: plugin-fw/templates/sysinfo/tabs/main.php:68
+msgid "loaded by %s"
+msgstr "laddad av %s"
+
+#: plugin-fw/templates/panel/help-tab.php:204
+msgctxt "Help tab submit ticket button"
+msgid "Submit a ticket"
+msgstr "Skicka ett supportärende"
+
+#: plugin-fw/templates/panel/help-tab.php:193
+msgctxt "Help tab submit ticket title"
+msgid "Need help?"
+msgstr "Behöver du hjälp?"
+
+#: plugin-fw/templates/panel/help-tab.php:184
+msgctxt "Help tab FAQ link"
+msgid "View all FAQs >"
+msgstr "Visa alla vanliga frågor >"
+
+#: plugin-fw/templates/panel/help-tab.php:170
+msgctxt "Help tab FAQ title"
+msgid "Last FAQs in our Help Center"
+msgstr "Sista vanliga frågan i vårt hjälpcenter"
+
+#: plugin-fw/templates/panel/help-tab.php:155
+msgctxt "Help tab view FAQs link"
+msgid "to find answers to your doubts."
+msgstr "för att hitta svar på dina funderingar."
+
+#: plugin-fw/templates/panel/help-tab.php:152
+msgctxt "Help tab view FAQs link"
+msgid "Check the FAQs"
+msgstr "Kolla in alla vanliga frågor"
+
+#: plugin-fw/templates/panel/help-tab.php:139
+msgctxt "Help tab Watch video tutorials link"
+msgid "Watch our video tutorials"
+msgstr "Titta på våra videohandledningar"
+
+#: plugin-fw/templates/panel/help-tab.php:126
+msgctxt "Help tab Read Documentation link"
+msgid "Read the documentation"
+msgstr "Läs dokumentationen"
+
+#: plugin-fw/templates/panel/help-tab.php:96
+msgctxt "Help tab Watch Videotutorials link"
+msgid "Videos are also available in:"
+msgstr "Videoklipp är också tillgängliga i:"
+
+#. translators: 1. Url to EN playlist.
+#: plugin-fw/templates/panel/help-tab.php:89
+msgctxt "Help tab view all video link"
+msgid "Check the full <a href=\"%s\" target=\"_blank\">Playlist on Youtube</a> to learn more >"
+msgstr "Kolla in den fullständiga <a href=\"%s\" target=\"_blank\">spellistan på Youtube</a> för att lära dig mer >"
+
+#: plugin-fw/templates/fields/image-dimensions.php:23
+msgctxt "Image height field label"
+msgid "Height"
+msgstr "Höjd"
+
+#: plugin-fw/templates/fields/image-dimensions.php:18
+msgctxt "Image width field label"
+msgid "Width"
+msgstr "Bredd"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:929
+msgctxt "Help tab default description"
+msgid "We want to help you enjoy a wonderful experience with all of our products."
+msgstr "Vi vill hjälpa dig att få en fantastisk upplevelse med alla våra produkter."
+
+#. translators: 1. Plugin name.
+#: plugin-fw/includes/class-yit-plugin-panel.php:920
+msgctxt "Help tab default title"
+msgid "Thank you for purchasing %s!"
+msgstr "Tack för att du köper %s!"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1007
+msgctxt "Help tab name"
+msgid "Help"
+msgstr "Hjälp"
+
+#: plugin-fw/includes/class-yit-help-desk.php:148
+msgid "There was an error with your request; please try again later."
+msgstr "Det var ett fel med din begäran, försök igen senare."
+
+#: plugin-fw/includes/class-yit-assets.php:241
+msgid "Are you sure you want to delete the selected items?"
+msgstr "Är du säker på att du vill ta bort de valda objekten?"
+
+#: plugin-fw/includes/class-yit-assets.php:238 plugin-fw/yit-functions.php:1985
+msgctxt "Trash confirmation action"
+msgid "Yes, move to trash"
+msgstr "Ja, flytta till papperskorgen"
+
+#: plugin-fw/includes/class-yit-assets.php:237
+msgid "Are you sure you want to trash the selected items?"
+msgstr "Är du säker på att du vill ta kasta de valda objekten?"
+
+#. translators: %s is the name of the post type (example Back to "Membership
+#. Plans").
+#: plugin-fw/includes/class-yith-post-type-admin.php:286
+msgid "Back to the list"
+msgstr "Tillbaka till listan"
+
+#. translators: %s is the name of the post type (example Back to "Membership
+#. Plans").
+#: plugin-fw/includes/class-yith-post-type-admin.php:286
+msgid "Back to \"%s\""
+msgstr "Tillbaka till ”%s”"
+
+#: plugin-fw/includes/class-yit-assets.php:225
+msgctxt "Button text"
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: plugin-fw/includes/class-yit-assets.php:224
+msgctxt "Button text"
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:31
+msgid "Options Saved"
+msgstr "Alternativ sparade"
+
+#: plugin-fw/templates/panel/v2/panel-content-page.php:57
+#: plugin-fw/templates/panel/v2/woocommerce/woocommerce-form.php:69
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:27
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:31
+msgid "Save Options"
+msgstr "Spara alternativ"
+
+#: plugin-fw/yit-functions.php:2120
+msgctxt "Term action"
+msgid "Delete"
+msgstr "Ta bort"
+
+#: plugin-fw/yit-functions.php:2107
+msgctxt "Term action"
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: plugin-fw/yit-functions.php:2099
+msgctxt "Term action"
+msgid "Edit"
+msgstr "Redigera"
+
+#: plugin-fw/yit-functions.php:2089
+msgctxt "Term action"
+msgid "View"
+msgstr "Visa"
+
+#: plugin-fw/yit-functions.php:2014 plugin-fw/yit-functions.php:2022
+#: plugin-fw/yit-functions.php:2138
+msgid "Further actions"
+msgstr "Ytterligare åtgärder"
+
+#: plugin-fw/includes/class-yit-assets.php:242 plugin-fw/yit-functions.php:2003
+#: plugin-fw/yit-functions.php:2129
+msgctxt "Delete confirmation action"
+msgid "Yes, delete"
+msgstr "Ja, ta bort"
+
+#: plugin-fw/includes/class-yit-assets.php:240 plugin-fw/yit-functions.php:2000
+#: plugin-fw/yit-functions.php:2127
+msgid "Confirm delete"
+msgstr "Bekräfta borttagning"
+
+#: plugin-fw/yit-functions.php:1993
+msgctxt "Post action"
+msgid "Delete Permanently"
+msgstr "Ta bort permanent"
+
+#: plugin-fw/includes/class-yit-assets.php:236 plugin-fw/yit-functions.php:1982
+msgid "Confirm trash"
+msgstr "Bekräfta slänga"
+
+#: plugin-fw/yit-functions.php:1976
+msgctxt "Post action"
+msgid "Trash"
+msgstr "Släng"
+
+#: plugin-fw/yit-functions.php:1968
+msgctxt "Post action"
+msgid "Restore"
+msgstr "Återställ"
+
+#: plugin-fw/yit-functions.php:1956
+msgctxt "Post action"
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: plugin-fw/yit-functions.php:1948
+msgctxt "Post action"
+msgid "Edit"
+msgstr "Redigera"
+
+#: plugin-fw/yit-functions.php:1937
+msgctxt "Post action"
+msgid "View"
+msgstr "Visa"
+
+#: plugin-fw/yit-functions.php:1928
+msgctxt "Post action"
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#. translators: %s is the title of the post object.
+#: plugin-fw/includes/class-yit-assets.php:241 plugin-fw/yit-functions.php:1916
+#: plugin-fw/yit-functions.php:2075
+msgid "This action cannot be undone and you will not be able to recover this data."
+msgstr "Denna åtgärd kan inte ångras och du kommer inte att kunna återskapa denna data."
+
+#. translators: %s is the title of the post object.
+#: plugin-fw/yit-functions.php:1916 plugin-fw/yit-functions.php:2075
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr "Är du säker på att du vill ta bort ”%s”?"
+
+#. translators: %s is the title of the post object.
+#: plugin-fw/yit-functions.php:1914
+msgid "Are you sure you want to move \"%s\" to trash?"
+msgstr "Är du säker på att du vill flytta ”%s” till papperskorgen?"
+
+#: plugin-fw/templates/fields/copy-to-clipboard.php:45
+msgctxt "Copy-to-clipboard button text"
+msgid "Copy"
+msgstr "Kopiera"
+
+#: plugin-fw/templates/fields/copy-to-clipboard.php:41
+msgctxt "Copy-to-clipboard message"
+msgid "Copied!"
+msgstr "Kopierad!"
+
+#: plugin-fw/templates/panel/panel-header.php:26
+#: plugin-fw/templates/panel/v2/panel-header.php:21
+msgid "help us by leaving a good review"
+msgstr "hjälp oss genom att lämna en bra recension"
+
+#. translators: %s it the Elementor Widget title.
+#: plugin-fw/includes/builders/elementor/class-yith-elementor-widget.php:252
+msgctxt "Elementor Widget - section title"
+msgid "%s - Options"
+msgstr "%s – alternativ"
+
+#: plugin-fw/templates/fields/date-format.php:70
+msgid "Preview:"
+msgstr "Förhandsgranska:"
+
+#. translators: 1. YITH site link; 2. WordPress site link.
+#: plugin-fw/includes/class-yit-pointers.php:84
+#: plugin-fw/includes/class-yit-pointers.php:100
+msgid "Discover all our plugins available on: %1$s and %2$s"
+msgstr "Upptäck alla våra tillägg tillgängliga på: %1$s och %2$s"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:107
+msgid "Copy Code"
+msgstr "Kopiera kod"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:107
+msgid "Copied!"
+msgstr "Kopierad!"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:74
+msgid "The file size exceeds 8 megabytes so it must be downloaded"
+msgstr "Filstorleken överstiger 8 megabyte så den måste laddas ner"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:61
+msgid "Download"
+msgstr "Ladda ner"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:79
+msgid "Plugins Requirements"
+msgstr "Tilläggets krav"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:21
+msgid "Site Info"
+msgstr "Webbplatsinformation"
+
+#: plugin-fw/templates/sysinfo/system-information-panel.php:13
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:26
+msgid "Log Files"
+msgstr "Loggfiler"
+
+#: plugin-fw/templates/sysinfo/system-information-panel.php:12
+msgid "PHPInfo"
+msgstr "PHPInfo"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:51
+msgid "External object cache"
+msgstr "Extern objektcache"
+
+#: plugin-fw/includes/class-yit-assets.php:278
+msgid "Color value"
+msgstr "Färgvärde"
+
+#: plugin-fw/includes/class-yit-assets.php:277
+msgid "Select Color"
+msgstr "Välj färg"
+
+#: plugin-fw/includes/class-yit-assets.php:276
+msgid "Select default color"
+msgstr "Välj standardfärg"
+
+#: plugin-fw/includes/class-yit-assets.php:275
+msgid "Default"
+msgstr "Standard"
+
+#: plugin-fw/includes/class-yit-assets.php:274
+msgid "Clear color"
+msgstr "Rensa färg"
+
+#: plugin-fw/includes/class-yit-assets.php:273
+msgid "Clear"
+msgstr "Rensa"
+
+#. translators: %1$s TLS label
+#: plugin-fw/includes/class-yith-system-status.php:599
+msgid "The system check cannot determine which %1$s version is installed due to a connection issue between your site and our server."
+msgstr "Systemkontrollen kan inte avgöra vilken %1$s-version som är installerad på grund av ett anslutningsproblem mellan din webbplats och vår server."
+
+#: plugin-fw/includes/class-yith-system-status.php:550
+msgid "Contact your hosting company in order to install it."
+msgstr "Kontakta ditt webbhotell för att installera det."
+
+#: plugin-fw/includes/class-yit-assets.php:239
+#: plugin-fw/includes/class-yit-assets.php:243
+#: plugin-fw/templates/sysinfo/tabs/main.php:46
+#: plugin-fw/templates/sysinfo/tabs/main.php:54
+#: plugin-fw/yit-functions.php:1984 plugin-fw/yit-functions.php:2002
+msgid "No"
+msgstr "Nej"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:46
+#: plugin-fw/templates/sysinfo/tabs/main.php:54
+msgid "Yes"
+msgstr "Ja"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:43
+msgid "Defined WP_CACHE"
+msgstr "Definierad WP_CACHE"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:18
+msgid "PHP error_log file"
+msgstr "PHP error_log-fil"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:13
+msgid "WP debug.log file"
+msgstr "WP debug.log-fil"
+
+#: plugin-fw/templates/fields/dimensions.php:94
+msgctxt "Tooltip in the \"Dimensions\" field"
+msgid "Link values together"
+msgstr "Sammanlänka värden"
+
+#: plugin-fw/templates/fields/dimensions.php:16
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Left"
+msgstr "Vänster"
+
+#: plugin-fw/templates/fields/dimensions.php:15
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Bottom"
+msgstr "Botten"
+
+#: plugin-fw/templates/fields/dimensions.php:14
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Right"
+msgstr "Höger"
+
+#: plugin-fw/templates/fields/dimensions.php:13
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Top"
+msgstr "Toppen"
+
+#: plugin-fw/templates/panel/panel-header.php:27
+#: plugin-fw/templates/panel/v2/panel-header.php:22
+msgid ":) Thanks!"
+msgstr ":) Tack!"
+
+#: plugin-fw/templates/panel/panel-header.php:24
+#: plugin-fw/templates/panel/v2/panel-header.php:19
+msgid "to keep updating and improving the plugin. Please,"
+msgstr "för att fortsätta uppdatera och förbättra tillägget. Vänligen, "
+
+#: plugin-fw/templates/panel/panel-header.php:23
+#: plugin-fw/templates/panel/v2/panel-header.php:18
+msgid "We need your support"
+msgstr "Vi behöver ditt stöd"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:35
+msgid "Output IP Address"
+msgstr "Visad IP-adress"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:26
+msgid "Site URL"
+msgstr "Webbplatsens URL"
+
+#: plugin-fw/includes/class-yith-system-status.php:487
+msgid "N/A"
+msgstr "N/A"
+
+#. translators: %1$s opening link tag, %2$s closing link tag
+#: plugin-fw/includes/class-yith-system-status.php:569
+#: plugin-fw/includes/class-yith-system-status.php:591
+msgid "Read more %1$shere%2$s or contact your hosting company in order to increase it."
+msgstr "Läs mer %1$shär%2$s eller kontakta ditt webbhotell för att öka det."
+
+#: plugin-fw/includes/class-yith-system-status.php:565
+msgid "Contact your hosting company in order to enable it."
+msgstr "Kontakta ditt webbhotell för att aktivera det."
+
+#. translators: %1$s code, %2$s file name
+#: plugin-fw/includes/class-yith-system-status.php:557
+msgid "Remove %1$s from %2$s file"
+msgstr "Ta bort %1$s från fil %2$s"
+
+#: plugin-fw/includes/class-yith-system-status.php:546
+#: plugin-fw/includes/class-yith-system-status.php:552
+msgid "Contact your hosting company in order to update it."
+msgstr "Kontakta ditt webbhotell för att uppdatera det."
+
+#: plugin-fw/includes/class-yith-system-status.php:542
+msgid "Update it to the latest version in order to benefit of all new features and security updates."
+msgstr "Uppdatera den till den senaste versionen för att dra nytta av alla nya funktioner och säkerhetsuppdateringar."
+
+#. translators: %1$s plugin name, %2$s version number
+#: plugin-fw/includes/class-yith-system-status.php:519
+msgid "%1$s needs at least %2$s version"
+msgstr "%1$s behöver minst version %2$s"
+
+#. translators: %s recommended memory amount
+#: plugin-fw/includes/class-yith-system-status.php:588
+msgid "For optimal functioning of our plugins, we suggest setting at least %s of available memory"
+msgstr "För optimal funktion av våra tillägg föreslår vi att du ställer in minst %s tillgängligt minne"
+
+#. translators: %1$s plugin name, %2$s required memory amount
+#: plugin-fw/includes/class-yith-system-status.php:516
+msgid "%1$s needs at least %2$s of available memory"
+msgstr "%1$s behöver minst %2$s tillgängligt minne"
+
+#. translators: %1$s plugin name, %2$s requirement name
+#: plugin-fw/includes/class-yith-system-status.php:513
+msgid "%1$s needs %2$s enabled"
+msgstr "%1$s måste ha %2$s aktiverat"
+
+#: plugin-fw/includes/class-yith-system-status.php:482
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: plugin-fw/includes/class-yith-system-status.php:482
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: plugin-fw/templates/sysinfo/system-information-panel.php:28
+msgid "YITH System Information"
+msgstr "YITH systeminformation"
+
+#. translators: 1. user display name; 2. user ID; 3. user email.
+#: plugin-fw/templates/fields/ajax-customers.php:68
+#: plugin-fw/templates/fields/ajax-customers.php:79
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "%1$s (#%2$s &ndash; %3$s)"
+
+#. translators: %1$s open link tag, %2$s open link tag
+#: plugin-fw/includes/class-yith-system-status.php:336
+msgid "The system check has detected some compatibility issues on your installation.%1$sClick here%2$s to know more"
+msgstr "Systemkontrollen har upptäckt några kompatibilitetsproblem på din installation.%1$sKlicka här%2$s för att veta mer"
+
+#: plugin-fw/includes/class-yith-system-status.php:332
+msgid "Warning!"
+msgstr "Varning!"
+
+#: plugin-fw/includes/class-yith-system-status.php:185
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin-fw/includes/class-yith-system-status.php:119
+msgid "URL FOpen"
+msgstr "URL-FOpen"
+
+#: plugin-fw/includes/class-yith-system-status.php:117
+msgid "Iconv Module"
+msgstr "Iconv-modul"
+
+#: plugin-fw/includes/class-yith-system-status.php:116
+msgid "GD Library"
+msgstr "GD-bibliotek"
+
+#: plugin-fw/includes/class-yith-system-status.php:115
+msgid "ImageMagick Version"
+msgstr "ImageMagick-version"
+
+#: plugin-fw/includes/class-yith-system-status.php:114
+msgid "MultiByte String"
+msgstr "MultiByte String"
+
+#: plugin-fw/includes/class-yith-system-status.php:113
+msgid "SimpleXML"
+msgstr "SimpleXML"
+
+#: plugin-fw/includes/class-yith-system-status.php:112
+msgid "WordPress Cron"
+msgstr "WordPress cron"
+
+#: plugin-fw/includes/class-yith-system-status.php:111
+msgid "TLS Version"
+msgstr "TLS-version"
+
+#: plugin-fw/includes/class-yith-system-status.php:110
+msgid "PHP Version"
+msgstr "PHP-version"
+
+#: plugin-fw/includes/class-yith-system-status.php:109
+msgid "Available Memory"
+msgstr "Tillgängligt minne"
+
+#: plugin-fw/includes/class-yith-system-status.php:108
+msgid "WooCommerce Version"
+msgstr "WooCommerce-version"
+
+#: plugin-fw/includes/class-yith-system-status.php:107
+msgid "WordPress Version"
+msgstr "WordPress-version"
+
+#: plugin-fw/includes/class-yith-system-status.php:136
+#: plugin-fw/includes/class-yith-system-status.php:137
+#: plugin-fw/templates/sysinfo/system-information-panel.php:11
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: plugin-fw/templates/fields/select-buttons.php:20
+msgid "Remove All"
+msgstr "Ta bort alla"
+
+#: plugin-fw/templates/fields/select-buttons.php:19
+msgid "Add All"
+msgstr "Lägg till alla"
+
+#: plugin-fw/templates/fields/date-format.php:65
+msgid "Custom:"
+msgstr "Anpassad:"
+
+#: plugin-fw/includes/class-yith-dashboard.php:137
+msgctxt "Button label"
+msgid "Close"
+msgstr "Stäng"
+
+#: plugin-fw/includes/class-yith-dashboard.php:97
+msgctxt "Plugin FW"
+msgid "Latest update released on"
+msgstr "Senaste uppdateringen släppt den"
+
+#: plugin-fw/includes/class-yith-dashboard.php:96
+msgctxt "Plugin FW"
+msgid "View Changelog"
+msgstr "Visa ändringslogg"
+
+#: plugin-fw/includes/class-yith-dashboard.php:63
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Ett fel har uppstått, vilket troligen innebär att flödet är nere. Försök igen senare."
+
+#: plugin-fw/includes/class-yith-dashboard.php:56
+msgid "RSS Error:"
+msgstr "RSS-fel:"
+
+#: plugin-fw/includes/class-yith-dashboard.php:36
+msgid "Latest news from YITH Blog"
+msgstr "Senaste nyheterna från YITH-bloggen"
+
+#: plugin-fw/includes/class-yith-dashboard.php:35
+msgid "YITH Latest Updates"
+msgstr "YITH senaste uppdateringar"
+
+#: plugin-fw/includes/builders/gutenberg/class-yith-gutenberg.php:156
+msgctxt "[gutenberg]: Category Name"
+msgid "YITH"
+msgstr "YITH"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#: templates/admin/premium.php:464
+msgid "Compare list - widget"
+msgstr "Jämförelselista – widget"
+
+#: includes/class.yith-woocompare-admin.php:114 plugin-fw/yit-plugin.php:242
+msgid "License"
+msgstr "Licens"
+
+#: plugin-fw/yit-plugin.php:238
+msgctxt "Action links"
+msgid "Settings"
+msgstr "Inställningar"
+
+#: plugin-fw/yit-plugin.php:97
+msgctxt "Plugin Row Meta"
+msgid "Premium version"
+msgstr "Premium-version"
+
+#: plugin-fw/yit-plugin.php:93
+msgctxt "Plugin Row Meta"
+msgid "Support"
+msgstr "Support"
+
+#: plugin-fw/yit-plugin.php:89
+msgctxt "Plugin Row Meta"
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: plugin-fw/yit-plugin.php:85
+msgctxt "Plugin Row Meta"
+msgid "Live Demo"
+msgstr "Live-demo"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:106
+msgctxt "Privacy Policy Content"
+msgid "Payments"
+msgstr "Betalningar"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:103
+msgctxt "Privacy Policy Content"
+msgid "What we share with others"
+msgstr "Vad vi delar med andra"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:100
+msgctxt "Privacy Policy Content"
+msgid "Who on our team has access"
+msgstr "Vem i vårt team har åtkomst"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:97
+msgctxt "Privacy Policy Content"
+msgid "What we collect and store"
+msgstr "Vad vi samlar in och sparar"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:61
+msgctxt "Privacy Policy Guide Title"
+msgid "YITH Plugins"
+msgstr "YITH-tillägg"
+
+#: plugin-fw/templates/fields/icons.php:78
+msgid "Set Default"
+msgstr "Ställ in standard"
+
+#: includes/class.yith-woocompare-helper.php:50
+msgid "Sku"
+msgstr "Artikelnummer"
+
+#: includes/class.yith-woocompare-frontend.php:221
+msgctxt "Label for popup close icon"
+msgid "Close"
+msgstr "Stäng"
+
+#: includes/class.yith-woocompare-helper.php:53
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+#: includes/class.yith-woocompare-helper.php:52
+msgid "Weight"
+msgstr "Vikt"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:559
+#: plugin-fw/includes/class-yit-plugin-panel.php:562
+msgid "How to install premium version"
+msgstr "Hur man installerar premiumversion"
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-compare/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-compare/"
+
+#: plugin-fw/templates/fields/upload.php:39
+msgid "Reset"
+msgstr "Återställ"
+
+#: templates/admin/premium.php:442
+msgid "A TAILORED TABLE"
+msgstr "EN SKRÄDDARSYDD TABELL"
+
+#: templates/admin/premium.php:426
+msgid "CUSTOMIZED ATTRIBUTES"
+msgstr "ANPASSADE ATTRIBUTER"
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Plugin Name of the plugin
+msgid "YITH WooCommerce Compare"
+msgstr "YITH WooCommerce Compare"
+
+#: widgets/class.yith-woocompare-widget.php:54
+msgid "Clear all"
+msgstr "Rensa allt"
+
+#: widgets/class.yith-woocompare-widget.php:27
+msgid "YITH WooCommerce Compare Widget"
+msgstr "YITH WooCommerce Compare Widget"
+
+#: widgets/class.yith-woocompare-widget.php:23
+msgid "The widget shows the list of products added in the comparison table."
+msgstr "Widgeten visar listan över produkter som lagts till i jämförelsetabellen."
+
+#: templates/compare.php:122
+msgid "No products added in the compare table."
+msgstr "Inga produkter har lagts till i jämförelsetabellen."
+
+#: templates/compare.php:87
+msgid "Close window [X]"
+msgstr "Stäng fönster [X]"
+
+#: templates/admin/premium.php:404
+msgid "CUSTOMIZABLE STYLE"
+msgstr "ANPASSNINGSBAR STIL"
+
+#: templates/admin/premium.php:388
+msgid "RELATED PRODUCTS"
+msgstr "RELATERADE PRODUKTER"
+
+#: templates/admin/premium.php:366
+msgid "SOCIAL NETWORK SHARING"
+msgstr "SOCIAL NÄTVERKSDELNING"
+
+#: templates/admin/premium.php:350
+msgid "DYNAMIC FIELDS"
+msgstr "DYNAMISKA FÄLT"
+
+#: templates/admin/premium.php:328
+msgid "TABLE IMAGE"
+msgstr "TABELLBILD"
+
+#: templates/admin/premium.php:290
+msgid "CATEGORY COMPARATION"
+msgstr "KATEGORIJÄMFÖRELSE"
+
+#: templates/admin/premium.php:274
+msgid "A DEDICATED PAGE"
+msgstr "EN DEDIKERAD SIDA"
+
+#: templates/admin/premium.php:266
+msgid "Premium Features"
+msgstr "Premium-funktioner"
+
+#: templates/admin/premium.php:260 templates/admin/premium.php:505
+msgid "to the premium version"
+msgstr "till premiumversion"
+
+#: templates/admin/premium.php:259 templates/admin/premium.php:504
+msgid "UPGRADE"
+msgstr "UPPGRADERA"
+
+#. translators: placeholders are used for add html tag.
+#: templates/admin/premium.php:255 templates/admin/premium.php:500
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Compare%2$s to benefit from all features!"
+msgstr "Uppgradera till %1$spremiumversion%2$s av %1$sYITH WooCommerce Compare%2$s för att dra nytta av alla funktioner!"
+
+#: plugin-options/general-options.php:112
+msgid "Set the size for the images"
+msgstr "Ställ in storleken för bilderna"
+
+#: plugin-options/general-options.php:111
+msgid "Image size"
+msgstr "﻿ Bildstorlek"
+
+#: plugin-options/general-options.php:104
+msgid "Repeat the \"Add to cart\" field at the end of the table"
+msgstr "Repetera fältet ”Lägg till i varukorg” i slutet på tabellen"
+
+#: plugin-options/general-options.php:103
+msgid "Repeat \"Add to cart\" field"
+msgstr "Repetera fältet ”Lägg till i varukorg”"
+
+#: plugin-options/general-options.php:96
+msgid "Repeat the \"Price\" field at the end of the table"
+msgstr "Repetera fältet ”Pris” i slutet av tabellen"
+
+#: plugin-options/general-options.php:95
+msgid "Repeat \"Price\" field"
+msgstr "Repetera fältet ”Pris”"
+
+#: plugin-options/general-options.php:87
+msgid "Fields to show"
+msgstr "Fält att visa"
+
+#: plugin-options/general-options.php:82 templates/compare.php:29
+msgid "Compare products"
+msgstr "Jämför produkter"
+
+#: plugin-options/general-options.php:80
+msgid "Type the text to use for the table title."
+msgstr "Skriv texten som ska användas för tabellrubriken."
+
+#: plugin-options/general-options.php:79
+msgid "Table title"
+msgstr "Tabellrubrik"
+
+#: plugin-options/general-options.php:72
+msgid "Table Settings"
+msgstr "Tabellinställningar"
+
+#: plugin-options/general-options.php:60
+msgid "Open link after click into \"Compare\" button\"."
+msgstr "Öppna länk efter klick på knapp ”Jämför”."
+
+#: plugin-options/general-options.php:59
+msgid "Open automatically lightbox"
+msgstr "Öppna automatiskt lightbox"
+
+#: plugin-options/general-options.php:52
+msgid "Say if you want to show the button in the products list."
+msgstr "Säg om du vill visa knappen i produktlistan."
+
+#: plugin-options/general-options.php:51
+msgid "Show button in products list"
+msgstr "Visa knapp i produktlista"
+
+#: plugin-options/general-options.php:44
+msgid "Say if you want to show the button in the single product page."
+msgstr "Säg om du vill visa knappen i den enskilda produktsidan."
+
+#: plugin-options/general-options.php:43
+msgid "Show button in single product page"
+msgstr "Visa knapp i enskild produktsida"
+
+#: plugin-options/general-options.php:36
+msgid "Type the text to use for the button or the link of the compare."
+msgstr "Skriv texten att använda för knappen eplänken för jämförelsen."
+
+#: plugin-options/general-options.php:35
+msgid "Link/Button text"
+msgstr "Länk/knapptext"
+
+#: plugin-options/general-options.php:30
+msgid "Button"
+msgstr "Knapp"
+
+#: plugin-options/general-options.php:29
+msgid "Link"
+msgstr "Länk"
+
+#: plugin-options/general-options.php:23
+msgid "Choose if you want to use a link or a button for the comepare actions."
+msgstr "Välj om du vill använda en länk eller en knapp för jämförelseåtgärden. "
+
+#: plugin-options/general-options.php:22
+msgid "Link or Button"
+msgstr "Länk eller knapp"
+
+#: plugin-options/general-options.php:15
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: plugin-fw/templates/panel/v2/panel-content-page.php:58
+#: plugin-fw/templates/panel/v2/woocommerce/woocommerce-form.php:70
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:41
+msgid "Reset Defaults"
+msgstr "Återställ standard"
+
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Right Sidebar"
+msgstr "Höger sidopanel"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Vänster sidopanel"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:56
+msgid "Choose a sidebar"
+msgstr "Välj en sidopanel"
+
+#: plugin-fw/templates/fields/sidebars.php:23
+msgid "Right sidebar"
+msgstr "Höger sidopanel"
+
+#: plugin-fw/templates/fields/sidebars.php:26
+#: plugin-fw/templates/fields/sidebars.php:29
+msgid "No sidebar"
+msgstr "Ingen sidopanel"
+
+#: plugin-fw/templates/fields/sidebars.php:20
+msgid "Left sidebar"
+msgstr "Vänster sidopanel"
+
+#: plugin-fw/templates/fields/image-gallery.php:26
+#: plugin-fw/templates/fields/image-gallery.php:37
+msgid "Delete"
+msgstr "Ta bort"
+
+#: plugin-fw/templates/fields/image-gallery.php:35
+msgid "Add images"
+msgstr "Lägg till bilder"
+
+#: plugin-fw/templates/fields/image-gallery.php:34
+msgid "Add to gallery"
+msgstr "Lägg till i galleriet"
+
+#: plugin-fw/templates/fields/image-gallery.php:33
+msgid "Add Images to Gallery"
+msgstr "Lägg till bilder i galleriet"
+
+#: plugin-fw/templates/fields/image-gallery.php:36
+msgid "Delete image"
+msgstr "Ta bort bild"
+
+#: plugin-fw/templates/fields/customtabs.php:93
+msgid "Do you want to remove the custom tab?"
+msgstr "Vill du ta bort den anpassade fliken?"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+msgid "Add custom product tab"
+msgstr "Lägg till anpassad produktflik"
+
+#: plugin-fw/templates/fields/customtabs.php:41
+#: plugin-fw/templates/fields/customtabs.php:82
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Innehållet i fliken. (HTML stöds)"
+
+#: plugin-fw/templates/fields/customtabs.php:40
+#: plugin-fw/templates/fields/customtabs.php:81
+msgid "Value"
+msgstr "Värde"
+
+#: plugin-fw/templates/fields/customtabs.php:17
+msgid "Expand all"
+msgstr "Expandera alla"
+
+#: plugin-fw/templates/fields/customtabs.php:17
+msgid "Close all"
+msgstr "Stäng alla"
+
+#: plugin-fw/templates/fields/upload.php:34
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:37
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: plugin-fw/templates/fields/ajax-products.php:16
+msgid "Search for a product..."
+msgstr "Sök efter en produkt …"
+
+#: plugin-fw/includes/class-yit-pointers.php:96
+msgid "Plugins Upgraded"
+msgstr "Tillägg uppgraderad"
+
+#: plugin-fw/includes/class-yit-pointers.php:80
+msgid "Plugins Activated"
+msgstr "Tillägg aktiverade"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1566
+msgid "Sorting successful."
+msgstr "Sortering lyckades."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1565
+msgid "Sorry, import is disabled."
+msgstr "Tyvärr, import är inaktiverat."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1564
+msgid "The added file is not valid."
+msgstr "Den tillagda filen är inte giltig."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1563
+msgid "An error has occurred during import. Please try again."
+msgstr "Ett fel har uppstått under importen. Försök igen."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1562
+msgid "Database imported correctly."
+msgstr "Databas importerad korrekt."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1560
+msgid "Element updated correctly."
+msgstr "Element uppdaterat korrekt."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1559
+msgid "Element deleted correctly."
+msgstr "Element borttaget korrekt."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1558
+msgid "Settings reset"
+msgstr "Inställningar återställd"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1557
+msgid "Settings saved"
+msgstr "Inställningar sparade"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1556
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "Det element du har angett finns redan. Ange ett annat namn."
+
+#: plugin-fw/includes/class-yit-assets.php:261
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:134
+#: plugin-fw/templates/panel/panel-content-page.php:14
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:137
+#: plugin-fw/templates/panel/panel-content-page.php:38
+msgid "Reset to default"
+msgstr "Återställ till standard"
+
+#: plugin-fw/includes/class-yit-assets.php:262
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:134
+#: plugin-fw/templates/panel/panel-content-page.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Om du fortsätter med denna åtgärd återställer du alla alternativ på denna sida."
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:127
+#: plugin-fw/templates/panel/panel-content-page.php:29
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: plugin-fw/includes/class-yith-system-status.php:177
+msgid "YITH Plugins"
+msgstr "YITH-tillägg"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:89
+msgid "Plugin Settings"
+msgstr "Inställningar för tillägg"
+
+#: plugin-fw/includes/class-yit-plugin-panel-woocommerce.php:606
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "De ändringar du har gjort kommer att gå förlorade om du lämnar denna sida."
+
+#: plugin-fw/templates/fields/customtabs.php:34
+#: plugin-fw/templates/fields/customtabs.php:76
+msgid "Name"
+msgstr "Namn"
+
+#: init.php:65
+msgid "You can't activate the free version of YITH WooCommerce Compare while you are using the premium one."
+msgstr "Du kan inte aktivera gratisversionen av YITH WooCommerce Compare medan du använder premiumversionen."
+
+#: init.php:51
+msgid "YITH WooCommerce Compare is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Compare är aktiverad men inte effektiv. Det kräver WooCommerce för att fungera."
+
+#: includes/class.yith-woocompare-helper.php:51
+msgid "Availability"
+msgstr "Tillgänglighet"
+
+#: includes/class.yith-woocompare-helper.php:49
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/class.yith-woocompare-helper.php:48
+msgid "Add to cart"
+msgstr "Lägg till i varukorg"
+
+#: includes/class.yith-woocompare-helper.php:47
+msgid "Price"
+msgstr "Pris"
+
+#: includes/class.yith-woocompare-helper.php:46
+#: widgets/class.yith-woocompare-widget.php:72
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/class.yith-woocompare-helper.php:45
+msgid "Image"
+msgstr "Bild"
+
+#: includes/class.yith-woocompare-frontend.php:735
+#: plugin-fw/templates/fields/customtabs.php:25
+#: plugin-fw/templates/fields/customtabs.php:68 templates/compare.php:139
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/class.yith-woocompare-frontend.php:723
+msgid "No products to compare"
+msgstr "Inga produkter att jämföra"
+
+#: includes/class.yith-woocompare-frontend.php:372
+msgid "In stock"
+msgstr "I lager"
+
+#: includes/class.yith-woocompare-frontend.php:216 templates/compare.php:57
+msgid "Product Comparison"
+msgstr "Produktjämförelse"
+
+#: includes/class.yith-woocompare-frontend.php:215
+msgid "Added"
+msgstr "Tillagt"
+
+#: includes/class.yith-woocompare-admin.php:348
+msgid "Do you want to hard crop the image?"
+msgstr "Vill du beskära bilden hårt?"
+
+#: includes/class.yith-woocompare-frontend.php:219
+#: includes/class.yith-woocompare-frontend.php:502
+#: plugin-options/general-options.php:38
+#: widgets/class.yith-woocompare-widget.php:55
+msgid "Compare"
+msgstr "Jämför"
+
+#: includes/class.yith-woocompare-admin.php:139
+msgid "Premium Version"
+msgstr "Premiumversion"
+
+#: includes/class.yith-woocompare-admin.php:112
+#: includes/class.yith-woocompare-admin.php:135
+#: plugin-fw/includes/class-yit-plugin-panel.php:90
+msgid "Settings"
+msgstr "Inställningar"
